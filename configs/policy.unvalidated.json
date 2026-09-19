@@ -1,0 +1,6 @@
+{
+  "status": "unvalidated",
+  "evidence": [],
+  "rules": [],
+  "note": "No measurements generated during reconstruction. AUTO defaults to R1. Use explicit D1/D4 only for future ablations."
+}

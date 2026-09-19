@@ -1,0 +1,12 @@
+{
+  "batch_capacity": 64,
+  "max_splits": 16,
+  "max_context": 32768,
+  "query_heads": 32,
+  "kv_heads": 8,
+  "head_dim": 128,
+  "page_size": 16,
+  "workers": 108,
+  "block_kv": 128,
+  "split_alignment": 32
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "sglang",
+    "revision": "7e257cd666c0d639626487987ea8e590da1e9395",
+    "tag": "v0.4.6.post5",
+    "kind": "vendored-unmodified baseline; split and integration reference",
+    "url": "https://github.com/sgl-project/sglang/tree/7e257cd666c0d639626487987ea8e590da1e9395",
+    "files": {
+      "third_party/sglang/LICENSE": "1495e1e757ef4d0925a2350563cf5754bb23c51701a8ec4fb3c5cdcbedae6747",
+      "third_party/sglang/decode_attention.py": "0cfbbf6823e0c0fa8a5993c4426a7fc40ecc3dba55da2a7e304202081e3bd00a"
+    }
+  },
+  {
+    "name": "triton",
+    "revision": "v3.2.0",
+    "kind": "algorithm and tiled kernel structure reference; local kernel rewritten",
+    "url": "https://github.com/triton-lang/triton/blob/v3.2.0/python/tutorials/06-fused-attention.py"
+  },
+  {
+    "name": "flashinfer",
+    "revision": "arXiv:2501.01005v1",
+    "kind": "design reference: plan/run split, load balance, graph workspace; no source copied",
+    "url": "https://arxiv.org/abs/2501.01005"
+  },
+  {
+    "name": "pytorch",
+    "revision": "documentation accessed during reconstruction",
+    "kind": "CUDA Graph lifecycle and stream/event API reference; local owner implemented independently",
+    "url": "https://docs.pytorch.org/docs/stable/notes/cuda.html#cuda-graphs"
+  }
+]
